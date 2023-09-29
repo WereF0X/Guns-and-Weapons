@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "gun_mod:assault_rifle"
+    },
+    "title": {
+      "translate": "advancements.here_comes_the_fun.title"
+    },
+    "description": {
+      "translate": "advancements.here_comes_the_fun.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "here_comes_the_fun": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gun_mod:assault_rifle"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "minecraft:story/smelt_iron"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "gun_mod:bullet"
+  },
+  "addition": {
+    "item": "minecraft:gold_nugget"
+  },
+  "result": {
+    "item": "gun_mod:shotgun_bullets"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "mod_elements": [
+    {
+      "name": "GunMod",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Grenadeitem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenadeitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gun_mod/models/item/grenadeitem.json",
+          "src/main/java/net/mcreator/gunmod/item/GrenadeitemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Grenade",
+      "type": "rangeditem",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gun_mod/models/item/grenade.json",
+          "src/main/java/net/mcreator/gunmod/item/GrenadeItem.java",
+          "src/main/java/net/mcreator/gunmod/entity/GrenadeEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "GunSmith",
+      "type": "villagerprofession",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun_smith",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gun_mod/textures/entity/villager/profession/gun_smith.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gun_mod/models/item/bullet.json",
+          "src/main/java/net/mcreator/gunmod/item/BulletItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AssaultRifle",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunmod/entity/AssaultRifleEntity.java",
+          "src/main/resources/assets/gun_mod/models/item/assault_rifle.json",
+          "src/main/java/net/mcreator/gunmod/item/AssaultRifleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Grenadetrade",
+      "type": "villagertrade",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenadetrade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HereComesTheFun",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "here_comes_the_fun",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gun_mod/advancements/here_comes_the_fun.json"
+        ]
+      }
+    },
+    {
+      "name": "Bulletproofchestplate",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulletproofchestplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunmod/item/BulletproofchestplateItem.java",
+          "src/main/resources/assets/gun_mod/models/item/bulletproofchestplate_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Bulletproofsmelt",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulletproofsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gun_mod/recipes/bulletproofsmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "Gunsmelt",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gun_mod/recipes/gunsmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "GrenadeProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunmod/procedures/GrenadeProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gunrecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gun_mod/recipes/gunrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Grenaderecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenaderecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gun_mod/recipes/grenaderecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Recipes",
+      "type": "gui",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunmod/world/inventory/RecipesMenu.java",
+          "src/main/java/net/mcreator/gunmod/client/gui/RecipesScreen.java",
+          "src/main/java/net/mcreator/gunmod/network/RecipesButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "YOnKeyPressed",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "y_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunmod/procedures/YOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Y",
+      "type": "keybind",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "y",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunmod/network/YMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "ShotgunBullets",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun_bullets",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gun_mod/models/item/shotgun_bullets.json",
+          "src/main/java/net/mcreator/gunmod/item/ShotgunBulletsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Shotgun",
+      "type": "rangeditem",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunmod/entity/ShotgunEntity.java",
+          "src/main/java/net/mcreator/gunmod/item/ShotgunItem.java",
+          "src/main/resources/assets/gun_mod/models/item/shotgun.json"
+        ]
+      }
+    },
+    {
+      "name": "Shotgunrecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgunrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gun_mod/recipes/shotgunrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sthogunbullet",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sthogunbullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/gun_mod/recipes/sthogunbullet.json"
+        ]
+      }
+    },
+    {
+      "name": "Recipes2",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunmod/client/gui/Recipes2Screen.java",
+          "src/main/java/net/mcreator/gunmod/world/inventory/Recipes2Menu.java"
+        ]
+      }
+    },
+    {
+      "name": "Proc1",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proc_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunmod/procedures/Proc1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.gun_mod.gun_mod": "Gun Mod",
+      "item.gun_mod.grenadeitem": "Grenadeitem",
+      "gui.gun_mod.recipes.label_recipes": "Recipes",
+      "advancements.here_comes_the_fun.title": "Open Fire!!!!",
+      "item.gun_mod.bulletproofchestplate_chestplate": "BulletProof Chestplate",
+      "item.gun_mod.grenade": "Grenade",
+      "gui.gun_mod.recipes.button_next": "Next",
+      "key.gun_mod.y": "Y",
+      "item.gun_mod.shotgun_bullets": "Shotgun Bullet",
+      "item.gun_mod.shotgun": "Shotgun",
+      "gui.gun_mod.recipes_2.label_recipes": "Recipes",
+      "advancements.here_comes_the_fun.descr": "Obtain an Assault Rifle",
+      "entity.minecraft.villager.gun_mod.gun_smith": "Gun Seller",
+      "item.gun_mod.assault_rifle": "Assault Rifle",
+      "item.gun_mod.bullet": "Bullet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gun_mod",
+    "modName": "Gun Mod",
+    "version": "1.0.0",
+    "author": "The_WereF0X",
+    "websiteURL": "https://discord.gg/eCAHRcTYc9",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "The_WereF0X",
+    "modElementsPackage": "net.mcreator.gunmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

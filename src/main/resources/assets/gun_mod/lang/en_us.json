@@ -1,0 +1,17 @@
+{
+  "item_group.gun_mod.gun_mod": "Gun Mod",
+  "item.gun_mod.grenadeitem": "Grenadeitem",
+  "gui.gun_mod.recipes.label_recipes": "Recipes",
+  "advancements.here_comes_the_fun.title": "Open Fire!!!!",
+  "item.gun_mod.bulletproofchestplate_chestplate": "BulletProof Chestplate",
+  "item.gun_mod.grenade": "Grenade",
+  "gui.gun_mod.recipes.button_next": "Next",
+  "key.gun_mod.y": "Y",
+  "item.gun_mod.shotgun_bullets": "Shotgun Bullet",
+  "item.gun_mod.shotgun": "Shotgun",
+  "gui.gun_mod.recipes_2.label_recipes": "Recipes",
+  "advancements.here_comes_the_fun.descr": "Obtain an Assault Rifle",
+  "entity.minecraft.villager.gun_mod.gun_smith": "Gun Seller",
+  "item.gun_mod.assault_rifle": "Assault Rifle",
+  "item.gun_mod.bullet": "Bullet"
+}

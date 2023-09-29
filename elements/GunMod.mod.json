@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Gun Mod",
+    "icon": {
+      "value": "Blocks.GLOW_LICHEN"
+    },
+    "showSearch": false
+  }
+}

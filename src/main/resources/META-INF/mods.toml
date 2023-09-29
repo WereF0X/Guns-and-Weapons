@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="gun_mod"
+version="1.0.0"
+displayName="Gun Mod"
+credits="The_WereF0X"
+displayURL="https://discord.gg/eCAHRcTYc9"
+authors="The_WereF0X"
+
+[[dependencies.gun_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

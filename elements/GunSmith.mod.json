@@ -1,0 +1,16 @@
+{
+  "_fv": 47,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Gun Seller",
+    "pointOfInterest": {
+      "value": "Blocks.ENCHANTING_TABLE"
+    },
+    "actionSound": {
+      "value": "entity.villager.ambient"
+    },
+    "hat": "Full",
+    "professionTextureFile": "villager.png",
+    "zombifiedProfessionTextureFile": "villager.png"
+  }
+}
